@@ -1,0 +1,47 @@
+2020-09-21 06:07:35.341  INFO 16388 --- [restartedMain] course.springboot.Application            : Starting Application on EISA-NB3445 with PID 16388 (C:\workspace\c02-spring\target\classes started by edson.h.cavalcanti in C:\workspace\c02-spring)
+2020-09-21 06:07:35.364  INFO 16388 --- [restartedMain] course.springboot.Application            : The following profiles are active: prod
+2020-09-21 06:07:35.497  INFO 16388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 06:07:35.498  INFO 16388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 06:07:37.449  INFO 16388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 06:07:37.449  INFO 16388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-21 06:07:37.553  INFO 16388 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface course.springboot.repository.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-09-21 06:07:37.564  INFO 16388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 0 JPA repository interfaces.
+2020-09-21 06:07:37.626  INFO 16388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 06:07:37.627  INFO 16388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-09-21 06:07:37.660  INFO 16388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 1 MongoDB repository interfaces.
+2020-09-21 06:07:38.734  INFO 16388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-21 06:07:38.757  INFO 16388 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 06:07:38.758  INFO 16388 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-21 06:07:38.878  INFO 16388 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 06:07:38.879  INFO 16388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3380 ms
+2020-09-21 06:07:38.965  INFO 16388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-21 06:07:39.217  INFO 16388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-21 06:07:39.226  INFO 16388 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0b347472-e163-40fe-b40f-40872f3c5db8'
+2020-09-21 06:07:39.531  INFO 16388 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 06:07:40.045  INFO 16388 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-09-21 06:07:40.344  INFO 16388 --- [cluster-ClusterId{value='5f686d5c5edb1f1afa5289e1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2020-09-21 06:07:40.388  INFO 16388 --- [cluster-ClusterId{value='5f686d5c5edb1f1afa5289e1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18732600}
+2020-09-21 06:07:41.054  INFO 16388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 06:07:41.762  WARN 16388 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-21 06:07:41.764  INFO 16388 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-21 06:07:42.203  INFO 16388 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-09-21 06:07:42.644  INFO 16388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-21 06:07:42.645  INFO 16388 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-21 06:07:42.646  INFO 16388 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-21 06:07:42.797  INFO 16388 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2020-09-21 06:07:42.954  INFO 16388 --- [restartedMain] c.springboot.config.DataInitializer      : User Full Name: Selena Pinheiro
+2020-09-21 06:07:42.954  INFO 16388 --- [restartedMain] c.springboot.config.DataInitializer      : Find Username in Database
+2020-09-21 06:07:43.003  INFO 16388 --- [restartedMain] c.springboot.config.DataInitializer      : User Found: edson.horacavalcanti@gmail.com
+2020-09-21 06:07:43.003  INFO 16388 --- [restartedMain] c.springboot.config.DataInitializer      : Find Like E-mail in Database
+2020-09-21 06:07:43.011  INFO 16388 --- [restartedMain] c.springboot.config.DataInitializer      : E-mail Found: juliana.horacavalcanti@hotmail.com
+2020-09-21 06:07:43.026  INFO 16388 --- [restartedMain] course.springboot.Application            : Started Application in 8.586 seconds (JVM running for 10.762)
+2020-09-21 06:07:54.009  INFO 16388 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 06:07:54.009  INFO 16388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 06:07:54.018  INFO 16388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-09-21 06:08:52.766  INFO 16388 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-21 06:08:53.465  INFO 16388 --- [RMI TCP Connection(11)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+2020-09-21 06:08:53.468  INFO 16388 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-21 06:08:53.473  INFO 16388 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 06:08:53.700  WARN 16388 --- [RMI TCP Connection(11)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-21 06:08:53.701  INFO 16388 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-21 06:08:53.706  INFO 16388 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

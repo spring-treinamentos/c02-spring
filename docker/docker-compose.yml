@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+    
+    c02-spring:
+        image: maven
+        volumes: 
+          - "C:\\workspace\\c02-spring:/deploy"
+        working_dir: "/deploy"
+        ports:
+          - "8080:8080"
+        command: bash -c "mvn clean && mvn install && java -jar target/course.springboot-1.0.0-SNAPSHOT.jar"
+        container_name: c02-spring    
+        
